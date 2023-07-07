@@ -1,0 +1,16 @@
+
+Nome tabella : auto_usate
+
+id ...............intero ...... MEDIUMINT - PRIMARY_KEY - AUTOINCREMENT
+marca ............stringa ..... VARCHAR(25) - NOT_NULL
+modello ..........stringa ..... VARCHAR(50) - NOT_NULL
+anno .............data ........ YEAR - NOT_NULL
+prezzo ...........float ....... FLOAT(12,2) - NOT_NULL
+km ...............intero ...... MEDIUMINT - NOT_NULL
+alimentazione ....stringa ..... VARCHAR(30) - NOT_NULL
+porte ............intero ...... TINYINT - NOT_NULL
+colore ...........stringa ..... VARCHAR(30) NULL
+condizioni .......stringa ..... VARCHAR(30) NULL
+cambio ...........stringa ..... VARCHAR(20) NULL
+foto..............stringa ..... TEXT NULL
+disponibile.......booleano..... TINYINT NOT_NULL
